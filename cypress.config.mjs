@@ -6,7 +6,7 @@ export default defineConfig({
         baseUrl: "http://localhost:3000", // Adjust this to your application's base
     },
     env: {
-        cognito_username: 'tjiheron@gmail.com',
-        cognito_password: 't2Y45678$',
+        cognito_username: '',
+        cognito_password: '',
     }
 });
