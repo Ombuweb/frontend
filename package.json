@@ -17,9 +17,11 @@
     "@aws-amplify/ui-vue": "^4.3.3",
     "@nuxt/eslint": "1.5.2",
     "@nuxt/ui": "3.2.0",
+    "@tailwindcss/vite": "^4.1.11",
     "aws-amplify": "^6.15.3",
     "eslint": "^9.31.0",
     "nuxt": "^4.0.0",
+    "tailwindcss": "^4.1.11",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
