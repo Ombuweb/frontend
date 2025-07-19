@@ -9,6 +9,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "vitest",
+    "test:e2e": "cypress open",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky"
@@ -33,6 +34,7 @@
     "@vue/test-utils": "^2.4.6",
     "aws-cdk-lib": "2.204.0",
     "constructs": "^10.4.2",
+    "cypress": "^14.5.2",
     "esbuild": "^0.25.6",
     "happy-dom": "^18.0.1",
     "husky": "^9.1.7",
