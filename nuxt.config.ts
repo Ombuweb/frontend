@@ -11,8 +11,14 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     cognito_clientId: process.env.COGNITO_CLIENT_ID,
+    callback_secret_token: process.env.CALLBACK_SECRET_TOKEN,
     public: {
       presignedUrlApiUrl: '',
+    },
+  },
+  vite: {
+    server: {
+      allowedHosts: ['.ngrok-free.app'],
     },
   },
 });
