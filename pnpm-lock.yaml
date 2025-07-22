@@ -23,9 +23,6 @@ importers:
       aws-amplify:
         specifier: ^6.15.3
         version: 6.15.3
-      aws-jwt-verify:
-        specifier: ^5.1.0
-        version: 5.1.0
       eslint:
         specifier: ^9.31.0
         version: 9.31.0(jiti@2.4.2)
@@ -4079,10 +4076,6 @@ packages:
       - table
       - yaml
       - mime-types
-
-  aws-jwt-verify@5.1.0:
-    resolution: {integrity: sha512-98ioOBMyrLU5jW5rPvkJo20XlNB2rAX3tZR3BM6AamfBkOoSRLV1EyGkbgHQzgFOWyQ7yV8+tce6M24rOpMkgw==}
-    engines: {node: '>=18.0.0'}
 
   aws-sign2@0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
@@ -15613,8 +15606,6 @@ snapshots:
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 45.2.0
       constructs: 10.4.2
-
-  aws-jwt-verify@5.1.0: {}
 
   aws-sign2@0.7.0: {}
 
