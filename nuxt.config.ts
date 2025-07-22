@@ -9,4 +9,10 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/test-utils/module',
   ],
+  runtimeConfig: {
+    cognito_clientId: process.env.COGNITO_CLIENT_ID,
+    public: {
+      presignedUrlApiUrl: '',
+    },
+  },
 });
