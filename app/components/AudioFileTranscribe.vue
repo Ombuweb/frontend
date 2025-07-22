@@ -86,7 +86,7 @@
         body: formData,
       });
 
-      if (!response.ok) {
+      if (response.statusText !== 'OK') {
         throw new Error(response.statusText);
       }
 
