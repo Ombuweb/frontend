@@ -6,7 +6,8 @@
 .cache
 dist
 coverage
-
+.amplify
+amplify_outputs.json
 # Node dependencies
 node_modules
 
