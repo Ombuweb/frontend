@@ -56,11 +56,10 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const response = await uploadFileToS3(
+    await uploadFileToS3(
       presignedUrl,
       new File([file.data], file.filename, { type: file.type })
     );
-    console.log('Upload response:', response);
   } catch (error) {
     console.error('Error al obtener la URL prefirmada:', error);
     throw createError({
